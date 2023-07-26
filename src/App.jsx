@@ -6,6 +6,14 @@ import 'swiper/css/effect-flip'
 import 'swiper/css/pagination'
 import 'swiper/css/navigation'
 import { data } from './data'
+import Hamim from './assets/img/hamim.jpg'
+import Evan from './assets/img/evan.jpg'
+import {
+  FaFacebook,
+  FaInstagramSquare,
+  FaTwitter,
+  FaGithub,
+} from 'react-icons/fa'
 
 function App() {
   return (
@@ -58,6 +66,61 @@ function App() {
           </div>
         </div>
       </div>
+      <footer className="footer">
+        <div className="flex website-create">
+          <img src={Evan} alt="" className="footer_img" />
+          <div className="span-div">
+            <span>Mohammed Evan</span>
+            <span
+              style={{
+                display: 'flex',
+                justifyContent: 'space-around',
+                gap: '10px',
+              }}
+            >
+              <a href="https://github.com/mohammedevan09">
+                <FaGithub />
+              </a>
+              <a href="https://www.facebook.com/mohammed.evan09/">
+                {' '}
+                <FaFacebook />
+              </a>
+              <a href="https://www.instagram.com/mohammed.evan_09/">
+                <FaInstagramSquare />
+              </a>
+              <a href="https://twitter.com/EvanMohammed">
+                {' '}
+                <FaTwitter />
+              </a>
+            </span>
+          </div>
+        </div>
+        <div className="flex founder">
+          <img src={Hamim} alt="" className="footer_img" />
+          <div className="span-div">
+            <span>Hamim Al Rashid</span>
+            <span
+              style={{
+                display: 'flex',
+                justifyContent: 'space-around',
+                gap: '10px',
+              }}
+            >
+              <a href="https://www.facebook.com/mohammed.evan09/">
+                {' '}
+                <FaFacebook />
+              </a>
+              <a href="https://www.instagram.com/mohammed.evan_09/">
+                <FaInstagramSquare />
+              </a>
+              <a href="https://twitter.com/EvanMohammed">
+                {' '}
+                <FaTwitter />
+              </a>
+            </span>
+          </div>
+        </div>
+      </footer>
     </>
   )
 }
