@@ -99,6 +99,17 @@ button {
   align-items: center;
   gap: 10px;
 }
+
+.another {
+  text-align: center;
+}
+
+.after-another {
+  position: relative;
+  top: 30px;
+  color: #658b97;
+}
+
 .flex {
   display: flex;
   justify-content: center;
@@ -152,12 +163,17 @@ a {
   .swipe-left {
     font-size: 29px;
   }
-  .flex {
-    display: grid;
-  }
   .swiper_container {
     height: 39rem;
   }
+  img.footer_img {
+    width: 57px;
+    height: 57px;
+  }
+  span {
+    font-size: 22px;
+  }
+
   .swiper-slide {
     width: 28rem !important;
     height: 36rem !important;
@@ -203,6 +219,7 @@ a {
 @media screen and (max-width: 795px) {
   .footer {
     display: grid;
+    grid-template-columns: 1fr;
   }
 }
 
