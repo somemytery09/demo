@@ -88,6 +88,47 @@ button {
   animation: blink infinite ease-in-out 1s;
 }
 
+.footer {
+  position: relative;
+  z-index: 999;
+  bottom: 0;
+  background-color: black;
+  top: 644px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
+
+img.footer_img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.span-div {
+  display: grid;
+  gap: 10px;
+}
+
+span {
+  color: white;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+a {
+  color: white;
+}
+
 .swiper-slide.swiper-slide-active {
   text-align: center;
 }
@@ -105,8 +146,14 @@ button {
   h1.heading {
     font-size: 54px;
   }
+  .footer {
+    display: grid;
+  }
   .swipe-left {
     font-size: 29px;
+  }
+  .flex {
+    display: grid;
   }
   .swiper_container {
     height: 39rem;
@@ -150,6 +197,12 @@ button {
   .slider-controler .swiper-button-next {
     left: 70% !important;
     transform: translateX(-70%) !important;
+  }
+}
+
+@media screen and (max-width: 795px) {
+  .footer {
+    display: grid;
   }
 }
 
