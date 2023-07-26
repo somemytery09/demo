@@ -67,57 +67,63 @@ function App() {
         </div>
       </div>
       <footer className="footer">
-        <div className="flex website-create">
-          <img src={Evan} alt="" className="footer_img" />
-          <div className="span-div">
-            <span>Mohammed Evan</span>
-            <span
-              style={{
-                display: 'flex',
-                justifyContent: 'space-around',
-                gap: '10px',
-              }}
-            >
-              <a href="https://github.com/mohammedevan09">
-                <FaGithub />
-              </a>
-              <a href="https://www.facebook.com/mohammed.evan09/">
-                {' '}
-                <FaFacebook />
-              </a>
-              <a href="https://www.instagram.com/mohammed.evan_09/">
-                <FaInstagramSquare />
-              </a>
-              <a href="https://twitter.com/EvanMohammed">
-                {' '}
-                <FaTwitter />
-              </a>
-            </span>
-          </div>
+        <div className="another">
+          <span className="after-another">Website sponsored by -</span>
+          <div className="flex website-create">
+            <img src={Evan} alt="" className="footer_img" />
+            <div className="span-div">
+              <span>Mohammed Evan</span>
+              <span
+                style={{
+                  display: 'flex',
+                  justifyContent: 'space-around',
+                  gap: '10px',
+                }}
+              >
+                <a href="https://github.com/mohammedevan09">
+                  <FaGithub />
+                </a>
+                <a href="https://www.facebook.com/mohammed.evan09/">
+                  {' '}
+                  <FaFacebook />
+                </a>
+                <a href="https://www.instagram.com/mohammed.evan_09/">
+                  <FaInstagramSquare />
+                </a>
+                <a href="https://twitter.com/EvanMohammed">
+                  {' '}
+                  <FaTwitter />
+                </a>
+              </span>
+            </div>
+          </div>{' '}
         </div>
-        <div className="flex founder">
-          <img src={Hamim} alt="" className="footer_img" />
-          <div className="span-div">
-            <span>Hamim Al Rashid</span>
-            <span
-              style={{
-                display: 'flex',
-                justifyContent: 'space-around',
-                gap: '10px',
-              }}
-            >
-              <a href="https://www.facebook.com/mohammed.evan09/">
-                {' '}
-                <FaFacebook />
-              </a>
-              <a href="https://www.instagram.com/mohammed.evan_09/">
-                <FaInstagramSquare />
-              </a>
-              <a href="https://twitter.com/EvanMohammed">
-                {' '}
-                <FaTwitter />
-              </a>
-            </span>
+        <div className="another">
+          <span className="after-another">Paradise shop owner -</span>
+          <div className="flex founder">
+            <img src={Hamim} alt="" className="footer_img" />
+            <div className="span-div">
+              <span>Hamim Al Rashid</span>
+              <span
+                style={{
+                  display: 'flex',
+                  justifyContent: 'space-around',
+                  gap: '10px',
+                }}
+              >
+                <a href="https://www.facebook.com/mohammed.evan09/">
+                  {' '}
+                  <FaFacebook />
+                </a>
+                <a href="https://www.instagram.com/mohammed.evan_09/">
+                  <FaInstagramSquare />
+                </a>
+                <a href="https://twitter.com/EvanMohammed">
+                  {' '}
+                  <FaTwitter />
+                </a>
+              </span>
+            </div>
           </div>
         </div>
       </footer>
